@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+hr {
+  width: 100%;
+}
+
+.editor,
+.viewer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.editor input,
+#btn-add,
+.btn-switch {
+  margin: 0.25rem;
+}
